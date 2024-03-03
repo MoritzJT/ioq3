@@ -574,6 +574,7 @@ static int GLimp_SetMode(int mode, qboolean fullscreen, qboolean noborder, qbool
 		SDL_GL_SetAttribute( SDL_GL_RED_SIZE, perChannelColorBits );
 		SDL_GL_SetAttribute( SDL_GL_GREEN_SIZE, perChannelColorBits );
 		SDL_GL_SetAttribute( SDL_GL_BLUE_SIZE, perChannelColorBits );
+		SDL_GL_SetAttribute( SDL_GL_ALPHA_SIZE, perChannelColorBits );
 		SDL_GL_SetAttribute( SDL_GL_DEPTH_SIZE, testDepthBits );
 		SDL_GL_SetAttribute( SDL_GL_STENCIL_SIZE, testStencilBits );
 
